@@ -1,0 +1,3 @@
+# Example YouTube URLs (one per line)
+# Short sample videos
+https://www.youtube.com/watch?v=0af9-s2WSxQ

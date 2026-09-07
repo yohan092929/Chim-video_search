@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Highlight Player</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <main class="player-wrapper">
+        <div class="video-card">
+          <video
+            id="video-player"
+            class="video-element"
+            playsinline
+            preload="auto"
+          >
+            <track
+              id="subtitles-track"
+              kind="subtitles"
+              srclang="ko"
+              label="한국어"
+            />
+            브라우저가 비디오 태그를 지원하지 않습니다.
+          </video>
+        </div>
+      </main>
+
+      <div class="search-container">
+        <form id="search-form" class="search-form" autocomplete="off">
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="검색어를 입력하고 Enter를 누르면 하이라이트가 재생됩니다..."
+            autofocus
+          />
+          <button
+            type="button"
+            id="clear-btn"
+            class="clear-btn"
+            style="display: none"
+          >
+            초기화
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+yt-dlp>=2024.8.6
+whisperx
+torch
+torchaudio
+fastapi>=0.110.0
+uvicorn>=0.28.0

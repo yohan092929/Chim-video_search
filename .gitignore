@@ -1,0 +1,32 @@
+# 미디어 다운로드 및 영구 저장 파일 제외
+data/storage/
+data/temp/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+downloads/
+*.mp4
+*.mkv
+*.mp3
+*.m4a
+*.webm
+*.srt
+*.vtt
+*.jpg
+*.webp
+
+# 아카이브 및 로그
+*.log
+downloads/archive*.txt
+
+# Python 가상환경 및 캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 쿠키 및 인증 파일 (보안)
+config/cookies/*
+!config/cookies/.gitkeep
+
